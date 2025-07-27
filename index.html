@@ -85,22 +85,17 @@
         .icon-bar {
             display: flex;
             gap: 1.2rem;
-            justify-content: flex-start;
+            justify-content: center;
+            /* Center the icons */
             align-items: center;
             padding: 0.5rem 0;
         }
 
-        .icon-bar img {
-            width: 32px;
-            height: 32px;
-            transition: opacity 0.2s ease;
-            cursor: pointer;
+        .icon-bar i {
+            font-size: 1.8rem;
+            color: #444;
             filter: grayscale(100%) contrast(90%);
-        }
-
-        .icon-bar img:hover {
-            opacity: 0.7;
-            filter: grayscale(0%) contrast(100%);
+            cursor: default;
         }
     </style>
 </head>
